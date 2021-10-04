@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #0C3DC1;
+
+  line-height: 25px;
+  margin: 0;
+}
+
+/*-----------------------------------header----------------------------------------------*/
+
+header {
+  width: 100%;
+  height: 100px;
+  color: #0C3DC1;
+  position: fixed;
+  display: flex;
+}
+
+
+#icon{
+  width: 40%;
+  background-color: #fff;
+} 
+
+#icon img {
+width:270px;
+height:80px;
+padding-top: 10px ;
+margin: auto;
+display: block;
+}
+
+
+
+nav{
+  width: 60%;
+  background-color: #fff;
+}
+
+header ul{
+  margin:0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header ul a{
+  display: block;
+  padding: 20px 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+/*-----------------------------------hover----------------------------------------------*/
+
+nav ul a:hover {
+  background: #0F8EE6;
+  color: white;
+  display: block;
+  padding: 20px 20px;
+}
+
+
+
+/*-----------------------------------cuerpo/caja1,2----------------------------------------------*/
+
+#cuerpo {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 650px;
+  background: #fff;
+  padding-top: 80px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#caja1{
+  display: block;
+  margin: auto;
+}
+
+#caja1 h1{
+  font-size: 50px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#caja1 p{
+  display: block;
+  padding: 15px ;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+}
+
+#caja2{
+  display: block;
+  padding: 15px;
+}
+
+#caja2 img{
+  display: block;
+}
+
+/*-----------------------------------ver mas----------------------------------------------*/
+
+#vermas{
+  background:#F37E0A;
+  color: #fff;
+  height: 500px;
+  text-align: center;
+  display: block;
+  padding-top: 200px;
+  margin: auto;
+}
+
+#vermas h2{
+  font-size: 35px;
+}
+
+#vermas p{
+  font-size: 30px;
+}
+
+#vermas button{
+  padding: 10px;
+}
+
+#vermas a{
+  text-decoration: none;
+  font-size:18px;
+  font-weight: bolder;
+  color: #666666;
+}
+/*-----------------------------------cuerpo2/caja3,4----------------------------------------------*/
+
+
+#cuerpo2{
+  color: #666666;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+#cuerpo2 #caja3{
+  display: block;
+  padding: 35px 150px;
+  line-height: 45px;
+  height: 500px;
+ 
+}
+
+#cuerpo2 #caja3 h4{
+  font-size: 30px;
+}
+
+#cuerpo2 #caja3 ul{
+  list-style: none;
+  font-size: 25px;
+}
+
+
+#cuerpo2 #caja4{
+  width: 50%;
+  height: 500px;
+ 
+}
+
+#cuerpo2 img{
+  display: block;
+  padding-top: 50px;
+  padding-left: 10px;
+  
+  width: 500px;
+   ;
+}
+
+
+
+
+
+
+
+/*-----------------------------------footer----------------------------------------------*/
+
+footer{
+  height:300px;
+  background: darkolivegreen;
+  display: flex;
+  flex-direction: row;
+}
+
+h3{
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  color:#fff;
+}
+
+#izquierda{
+  width: 45%;
+  display: block;
+  padding: 15px 150px;
+  line-height: 30px;
+ 
+}
+
+#izquierda ul{
+  list-style: none;
+  line-height: 35px;
+}
+
+#izquierda ul a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff
+}
+
+ #centro{
+   width: 35%;
+   display: block;
+   line-height: 30px;
+   padding: 15px 70px;
+ 
+ }
+
+ #centro ul{
+   list-style: none;
+   line-height: 35px;
+ }
+
+ #centro ul a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+ }
+
+ 

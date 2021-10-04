@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #666666;
+
+  line-height: 25px;
+  margin: 0;
+}
+
+/*-----------------------------------header----------------------------------------------*/
+
+header {
+  width: 100%;
+  height: 100px;
+  color: #0C3DC1;
+  position: fixed;
+  display: flex;
+}
+
+
+#icon{
+  width: 40%;
+  background-color: #fff;
+} 
+
+#icon img {
+width:270px;
+height:80px;
+padding-top: 10px ;
+margin: auto;
+display: block;
+}
+
+
+
+nav{
+  width: 60%;
+  background-color: #fff;
+}
+
+header ul{
+  margin:0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header ul a{
+  display: block;
+  padding: 20px 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+/*-----------------------------------hover----------------------------------------------*/
+
+nav ul a:hover {
+  background: #0F8EE6;
+  color: white;
+}
+
+
+
+#caja1{
+  background:#0F8EE6;
+  color: #fff;
+  height: 200px;
+  text-align: center;
+  display: block;
+  padding-top: 135px;
+  margin: auto;
+}
+
+/*-----------------------------------cuerpo----------------------------------------------*/
+
+#cuerpo{
+  width: 100%;
+  max-width: 1000px;
+  max-height: 650px;
+  background: #fff;
+  margin: auto;
+  display: flex;
+}
+
+
+#caja2{
+  display: block;
+  width: 50%;
+}
+
+#caja2 img{
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+
+}
+
+#caja3{
+  display: block;
+  width: 50%;
+  padding: 50px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+#caja3 button{
+  display: block;
+  padding: 10px;
+  background: #0F8EE6;
+  border-radius: 10%;
+}
+
+#caja3 button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*-----------------------------------h2----------------------------------------------*/
+
+
+.titulo h2{
+  height: 250px;
+  display: block;
+  padding-top: 170px;
+  padding-left: 120px;
+  font-size: 30px;
+ }
+
+/*-----------------------------------cuerpo2----------------------------------------------*/
+
+#cuerpo2{
+  width: 100%;
+  height: 450px;
+	display: flex;
+	flex-direction:row;
+	font-size: 15px;
+}
+
+#cuerpo2 h3{
+  font-size: 15px;
+}
+
+#cuerpo2 figure{
+  width: 28%;
+  display: block;
+  margin: auto;
+}
+
+#cuerpo2 figure p{
+  line-height: 24px;
+  color: #666666;
+}
+
+#cuerpo2 figure img{
+  width: 70%;
+  border-radius: 40%;
+	margin:auto;
+	display:block
+}
+
+#cuerpo2 figure .btnsocial{
+  display: flex;
+}
+
+#cuerpo2 figure .btnsocial a{
+  background: #0F8EE6;
+  color: #fff;
+  display: block;
+  width: 22px;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 20%;
+}
+
+#cuerpo2 figure figcaption{
+  text-align:justify
+}
+
+/*-----------------------------------cuerpo3----------------------------------------------*/
+
+#cuerpo3{
+  width: 100%;
+  height: 450px;
+	display: flex;
+	flex-direction:row;
+	font-size: 15px;
+}
+
+#cuerpo3 h3{
+  font-size: 15px;
+}
+
+#cuerpo3 figure{
+  width: 28%;
+  margin: auto;
+}
+
+#cuerpo3 figure p{
+  line-height: 24px;
+  color: #666666;
+}
+
+#cuerpo3 figure img{
+  width: 70%;
+  border-radius: 40%;
+	margin:auto;
+	display:block
+}
+
+#cuerpo3 figure .btnsocial{
+  display: flex;
+}
+
+#cuerpo3 figure .btnsocial a{
+  background: #0F8EE6;
+  color: #fff;
+  display: block;
+  width: 22px;
+  text-decoration: none;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 20%;
+}
+
+#cuerpo3 figure figcaption{
+  text-align:justify
+}
+
+/*-----------------------------------footer----------------------------------------------*/
+
+footer{
+  height:300px;
+  background: darkolivegreen;
+  display: flex;
+  flex-direction: row;
+}
+
+h3{
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  color:#fff;
+}
+
+#izquierda{
+  width: 45%;
+  display: block;
+  padding: 15px 150px;
+  line-height: 30px;
+ 
+}
+
+#izquierda ul{
+  list-style: none;
+  line-height: 35px;
+}
+
+#izquierda ul a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff
+}
+
+ #centro{
+   width: 35%;
+   display: block;
+   line-height: 30px;
+   padding: 15px 70px;
+ 
+ }
+
+ #centro ul{
+   list-style: none;
+   line-height: 35px;
+ }
+
+ #centro ul a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+ }
+

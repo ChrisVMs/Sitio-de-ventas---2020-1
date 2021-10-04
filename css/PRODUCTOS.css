@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #0C3DC1;
+  line-height: 25px;
+  margin: 0;
+}
+
+#contenedor{
+height: auto;
+
+}
+
+/*-----------------------------------header----------------------------------------------*/
+
+header {
+  width: 100%;
+  height: 100px;
+  color: #0C3DC1;
+  position: fixed;
+  display: flex;
+}
+
+
+#icon{
+  width: 40%;
+  background-color: #ffffff;
+} 
+
+#icon img {
+width:270px;
+height:80px;
+padding-top: 10px ;
+margin: auto;
+display: block;
+}
+
+
+
+nav{
+  width: 60%;
+  background-color: #fff;
+}
+
+header ul{
+  margin:0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header ul a{
+  display: block;
+  padding: 20px 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+/*-----------------------------------hover----------------------------------------------*/
+
+nav ul a:hover {
+  background: #0F8EE6;
+  color: white;
+}
+
+
+/*-----------------------------------contenedor-slide----------------------------------------------*/
+
+#contenedor-1{
+  width: 890px;
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-image{
+  width: 890px;
+  height: 350px;
+  background-position:center;
+  background-size: cover;
+  display: inline-block;
+}
+
+#slide1{
+  background-image: url('../img/BANNER.PNG');
+}
+
+
+/*-----------------------------------contenedorslide2----------------------------------------------*/
+
+#dh1{
+  background: #0F8EE6;
+  height: 100px;
+  text-align: center;
+  padding-top:30px
+ 
+}
+
+#dh1 h1{
+  color:honeydew;
+}
+
+#dh2{
+  width: 1100px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+
+.prod{
+margin-top: 100px;
+margin-left: 20px;
+}
+
+#sub-slide1{
+  background-image: url('../img/SUB-BANNER1.PNG');
+}
+
+
+#titulo{
+  background: orange;
+  height: 100px;
+  text-align: center;
+  padding-top:30px
+}
+
+#titulo h1{
+  color:honeydew;
+}
+
+/*-----------------------------------cuerpo----------------------------------------------*/
+
+#contenedor{
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+#cuerpo{
+  width: 50%;
+  height: 33%;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+#cuerpo a{
+  padding-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#cuerpo #ruleta1-titulo{
+  font-size: 20px;
+  display: block;
+ padding-right:200px;
+  font-weight: bolder;
+}
+
+#descripcion{
+  width: 67%;
+  display: flex;
+  margin-left: -90px;
+}
+
+#descripcion .p{
+  display: block;
+  margin: auto 30px;
+  border: 3px solid #666666;
+}
+
+
+/*-----------------------------------footer----------------------------------------------*/
+
+footer{
+  height:300px;
+  background: darkolivegreen;
+  display: flex;
+  flex-direction: row;
+}
+
+h3{
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  color:#fff;
+}
+
+#izquierda{
+  width: 45%;
+  display: block;
+  padding: 15px 150px;
+  line-height: 30px;
+ 
+}
+
+#izquierda ul{
+  list-style: none;
+  line-height: 35px;
+}
+
+#izquierda ul a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff
+}
+
+ #centro{
+   width: 35%;
+   display: block;
+   line-height: 30px;
+   padding: 15px 70px;
+ 
+ }
+
+ #centro ul{
+   list-style: none;
+   line-height: 35px;
+ }
+
+ #centro ul a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+ }
+
+
